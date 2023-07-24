@@ -1,0 +1,252 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* FIM RESET CSS */
+
+/* HEADER */
+#header { 
+    background-color: #008374; /*escolhendo a cor de fundo do header*/
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 9rem; /* Definindo a margem de todo o site */
+}
+
+.logo h1, 
+.item, 
+.inicio .conteudo .titulo, 
+.inicio .conteudo .texto,
+.noticias .conteudo .texto {
+    color: white; /* Definindo todos os textos em que a cor será branca */
+}
+
+.logo h1 {
+    font: 600 2.6rem 'Lucida', sans-serif;
+}
+
+.menu .item {
+    font: 400 1.3rem 'Lucida', sans-serif;
+}
+
+.menu {
+    width: 30%; /*Assim ele irá ocupar 30% do nosso header*/
+    display: flex;
+    justify-content: space-between;
+
+}
+/* FIM HEADER */
+
+/* MAIN */
+/* INICIO */
+
+.inicio {
+    background-color: #23A092;
+}
+
+.conteudo .titulo {
+    font: 600 2.5rem 'Lucida', sans-serif;
+}
+
+.conteudo .texto {
+    font: 500 1.9rem 'Lucida', sans-serif;
+}
+/* FIM INICIO */
+/* CAIXAS */
+.caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixas .imagem img {
+    width: 3rem;
+    margin-bottom: .9rem;
+}
+
+.caixa .conteudo .texto {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.caixa {
+    width: 13.5rem;
+    height: 11rem;
+    border: .1875rem solid black;
+    text-align: center;
+    padding: .625rem 0.9rem;
+    margin: 0 1.25rem 3rem;
+    margin-top: -2.3rem; /*Usar uma margem negativa faz com que o elemento possa subir, sem a necessidade dele ser um objeto com posição absoluta*/
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+/* FIM CAIXAS */
+/*SERVICOS*/
+.servicos .container {
+    flex-direction: column;
+}
+
+.planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plano {
+    margin: 6rem 4rem;
+    width: 19rem;
+    text-align: center;
+    padding: 1.875rem 0;
+    background-color: #EDECEC;
+    height: 22rem;
+    box-shadow: 1px 5px 5px gray;
+}
+
+.plano .conteudo .titulo {
+    font: 700 1.5rem 'Lucida', sans-serif;
+}
+
+.divisao-1 {
+    height: 1.3rem;
+    background-color: #F6A256;
+    margin: 0.7rem 0;
+}
+
+.divisao-2 {
+    height: 1.3rem;
+    background-color: #FF912D;
+    margin: 0.7rem 0;
+}
+
+.opcao {
+    font: 400 1.2rem 'Lucida', sans-serif;
+    margin: 1.25rem 0;
+}
+
+.valor {
+    font: 700 1.4rem 'Lucida', sans-serif;
+    margin-top: 1rem;
+}
+
+.opcao .cash, 
+.opcao .acesso {
+    color: #959292;
+}
+/* FIM SERVICOS */
+/* FORMS*/
+.forms {
+    background-color: #23A092;
+}
+
+.forms .container {
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 0;
+}
+
+.forms .container .conteudo .titulo {
+    color: white;
+}
+
+.forms .container .conteudo .texto {
+    font-size: 20px;
+    color: white;
+}
+
+.forms .container .form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.forms .container .form label {
+    font: 400 1.2rem 'Lucida',sans-serif;
+    color: white;
+    margin-top: 1rem;
+}
+
+.forms .container .form input {
+    background-color: #E8E8E8;
+    padding: 0 10px;
+    font: 400 0.9rem 'Lucida', sans-serif;
+    width: 90%;
+    border-radius: .625rem;
+    height: 2rem;
+}
+
+.forms .container .form button {
+    height: 2rem;
+    padding: .5rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    width: 15%;
+    font: 400 1rem 'Lucida', sans-serif ;
+}
+
+
+/* FIM FORMS */
+/* FIM MAIN */
+
+/* FOOTER */
+#footer {
+    background-color: #008374;
+    
+}
+
+#footer .container {
+    align-items: center;
+    height: 12rem;
+}
+
+#footer .container .menu {
+    flex-direction: column;  
+    margin-left: 8rem;
+}
+
+
+
+.noticias {
+    width: 40%;
+}
+
+.noticias .conteudo .texto {
+    font: 400 1.2rem 'Lucida', sans-serif;
+}
+
+.noticias .conteudo .inscricao input {
+    border-radius: .625rem;
+    height: 2rem;
+    width: 70%;
+    padding: 0 10px;
+    font: 400 0.9rem 'Lucida', sans-serif;
+}
+
+.noticias .conteudo .inscricao button {
+    padding: .5rem 1rem;
+    border-radius: 0.5rem;
+    font: 1rem sans-serif;
+}
+/* FIM FOOTER */
