@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #008374;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.logo {
+    width: 473px;
+    height: 43px;
+    top: 24px;
+    left: 147px;
+    color: white;
+    text-align: center;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    color: white;
+    margin-right: 100px;
+}
+.FORMSTUDO {
+    background-color: #23A092;
+    padding: 400px;
+}

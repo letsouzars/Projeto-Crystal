@@ -130,6 +130,46 @@ p {
 .preco {
    font-weight: 800;
    font-size: 30px;
-
-   
 }
+
+.fundobranco {
+    background-color: white;
+    height: 200px;
+}
+
+#footer {
+    background-color: #008374;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar2 a {
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+button , input{
+    border-radius: 2px;
+    height: 25px;
+ 
+}
+
+input {
+    width: 428px;
+}
+
+button {
+    width: 50px;
+}
+
+.textofooter {
+    color: white;
+    font-size: 18px;
+}
+
+
