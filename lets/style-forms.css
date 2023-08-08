@@ -42,7 +42,72 @@ header {
     color: white;
     margin-right: 100px;
 }
-.FORMSTUDO {
-    background-color: #23A092;
-    padding: 400px;
+.FORMSTUDO  {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #23A092;
+        margin-top: 50px;
+        height: 800px;
+        top: 91px;
+    }
+
+    .textosforms {
+        color: white;
+        height:400px ;
+        width: 75%;
+    }
+
+    .tituloforms {
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+.form {
+    width: 50px;
+    margin-left:450px ;
+    border-radius: 5px;
+
 }
+
+
+#footer {
+    background-color: #008374;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar2 a {
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+button , input{
+    border-radius: 2px;
+    height: 25px;
+ 
+}
+
+input {
+    width: 428px;
+}
+
+button {
+    width: 50px;
+}
+
+.textofooter {
+    color: white;
+    font-size: 18px;
+}
+
+.form {
+    margin-left: 50px;
+}
+
+
